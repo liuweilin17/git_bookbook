@@ -1,3 +1,11 @@
+#### Introduction
+*  [rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
+* [Rewrite history](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
+
+#### Example 1 
+
+squash all the commit of your feature branch(a.k.a `speaker-recognition`) and create pull requests(a.k.a merge to `develop`) without conflicts with `develop`
+
 * Method 1:
 
   We first rename current branch ```feature1-branch``` to ```feature1-branch-bak``` to back up our changes. 
