@@ -50,7 +50,8 @@ squash all the commit of your feature branch(a.k.a `speaker-recognition`) and cr
   # use [s] command to do the squash
   git rebase -i origin/develop
   
-  # git rebase --continue ???
+  # continue after conflicts were fixed
+  git rebase --continue
   
   git push -f origin speaker-recognition
   ```
